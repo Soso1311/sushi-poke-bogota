@@ -1,0 +1,15 @@
+# Create a new repository
+git init sushi-poke-bogota
+cd sushi-poke-bogota
+
+# Add the files to the repository
+git add index.html styles.css script.js
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Create a new repository on GitHub
+git remote add origin https://github.com/your-username/sushi-poke-bogota.git
+
+# Push the changes to GitHub
+git push -u origin main
